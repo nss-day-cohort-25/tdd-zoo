@@ -7,5 +7,6 @@ class Animal():
         self.male = False
         self.female = True
 
-    def say_something(self):
-        return "Speak"
+    def say_something(self, awesome_string_sound):
+        print(awesome_string_sound)
+        return awesome_string_sound

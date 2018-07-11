@@ -12,7 +12,9 @@ class AnimalTest(unittest.TestCase):
 
     def test_does_animal_speak(self):
         animal = Animal()
-        self.assertTrue(animal.say_something())
+        self.assertTrue(animal.say_something("moo"))
+        self.assertTrue(animal.say_something("Woof"))
+        
   # Write test methods for subtract, multiply, and divide
 
 if __name__ == '__main__':
