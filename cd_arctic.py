@@ -1,4 +1,6 @@
-class Arctic():
+from habitat import Habitat
+
+class Arctic(Habitat):
 
     def return_name(self):
         """
