@@ -23,8 +23,9 @@ class Giraffe(Animal, Savannah):
             Animal.male = True
             Animal.female = False
         else:
-            print(
-                f'Attempted to create new Giraffe with sex of {sex}. This giraffe has defaulted to female per the Animal class.')
+            if __name__ == '__main__':
+                print(
+                    f'Attempted to create new Giraffe with sex of {sex}. This giraffe has defaulted to female per the Animal class.')
             Animal.male = False
             Animal.female = True
         self.habitat = Savannah().my_name()
