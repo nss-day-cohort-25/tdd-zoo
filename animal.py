@@ -8,5 +8,10 @@ class Animal():
         self.female = True
 
     def say_something(self, awesome_string_sound):
+        """
+        author: rachael babcock
+
+        arguments: takes in self and 1 string that can be any string
+        """
         print(awesome_string_sound)
         return awesome_string_sound
