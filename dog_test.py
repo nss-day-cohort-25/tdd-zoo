@@ -1,5 +1,5 @@
 import unittest
-import dog
+from dog import Dog
 
 class DogTest(unittest.TestCase):
 
