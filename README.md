@@ -1,6 +1,6 @@
 C25 TDD class exercise
 
-We will need to make 8 animals and assign them to one of 4 habitats
+We will need to make 6 animals and assign them to one of 3 habitats
 For example, a Bird class would inherit from Animal and have a nest attribute that is an instance of a Habitat.
 
 This is a TDD-based project.
