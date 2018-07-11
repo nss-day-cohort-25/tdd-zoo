@@ -12,7 +12,6 @@ class Sloth(Animal):
 
         """
 
-        super().__init__(self)
         self.habitat = "forest"
         self.toes= 3
         self.color= "gray"
